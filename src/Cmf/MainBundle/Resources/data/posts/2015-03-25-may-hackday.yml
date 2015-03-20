@@ -1,0 +1,19 @@
+name: "may-hackday-2015"
+parent: "/news"
+title: "Symfony CMF - Sulu hackday May 2015"
+label: false
+format: markdown
+template: CmfMainBundle:Cms:news_detail.html.twig
+publish_start_date: "2015-03-25"
+body: |
+  The will be a joint Symfony CMF / Sulu CMS hackday in Dornbirn, Austria on
+  the 1st and 2nd of May. Friday will be a presentation / workshop day, and
+  Saturday will be a more general day for hacking and discussion. 
+  
+  You can learn more about the present and future of the CMF, Sulu CMS and
+  Jackalope (PHPCR) and get hands on experience.
+
+  The venue and catering will be provided by MassiveArt webservices and there
+  will be a social event on Friday evening.
+
+  There will be stickers and t-shirts.
