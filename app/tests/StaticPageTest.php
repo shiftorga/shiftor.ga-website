@@ -29,10 +29,10 @@ class StaticPageTest extends WebTestCase
         );
     }
 
-    public function testAboutShowsTableOfSponsors()
+    public function testContributorsShowsTableOfSponsors()
     {
         $client = $this->createClient();
-        $crawler = $client->request('GET', '/about');
+        $crawler = $client->request('GET', '/contributers');
         $this->assertTrue($client->getResponse()->isSuccessful());
         $this->assertEquals(1, $crawler->filter('table thead th:contains("Company")')->count());
         $this->assertEquals(1, $crawler->filter('table tbody tr:contains("Mayflower")')->count());
