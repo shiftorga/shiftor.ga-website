@@ -14,5 +14,4 @@ before_script:
 script: phpunit -c app
 
 notifications:
-  irc: "irc.freenode.org#symfony-cmf"
-  email: "symfony-cmf-devs@googlegroups.com"
+  email: "shiftorga@gmail.com"

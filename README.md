@@ -1,4 +1,4 @@
-# Symfony2 CMF Website
+# Shiftorga Website
 
 ### You will need:
   * Git 1.6+
@@ -10,8 +10,9 @@
 ## Installation
 To get the website running, first clone the repository:
 
-    $ git clone git://github.com/symfony-cmf/symfony-cmf-website.git
-    $ cd symfony-cmf-website
+    $ git clone git@github.com:shiftorga/shiftor.ga-website.git
+    $ cd shiftor.ga-website 
+    $ git checkout shiftorga
 
 ## Get the code
 
@@ -35,19 +36,19 @@ For Mac Os X users, when changing the owner of the cache folder, use '_www' inst
 Create an apache virtual host entry along the lines of
 
     <Virtualhost *:80>
-        Servername http://cmf-website.lo
-        DocumentRoot /path/to/symfony-cmf/symfony-cmf-website/web
-        <Directory /path/to/symfony-cmf/symfony-cmf-website>
+        Servername http://shiftorga.lo
+        DocumentRoot /path/to/shiftorga/shiftor.ga-website/web
+        <Directory /path/to/shiftorga/shiftor.ga-website>
             AllowOverride All
         </Directory>
     </Virtualhost>
 
-And add an entry to your hosts file for "cmf-website.lo"
+And add an entry to your hosts file for "shiftorga.lo"
 
 If you are running Symfony2 for the first time, run http://simple-cms.lo/config.php to ensure your
 system settings have been setup inline with the expected behaviour of the Symfony2 framework.
 
-Then point your browser to http://cmf-website.lo/app_dev.php
+Then point your browser to http://shiftorga.lo/app_dev.php
 
 ## Run tests
 
