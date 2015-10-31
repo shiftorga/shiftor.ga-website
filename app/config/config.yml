@@ -52,8 +52,8 @@ cmf_menu:
         uri_prefix: true
 
 cmf_seo:
-    title: %%content_title%% | Symfony2 CMF
-    description: The Symfony2 Content Management Framework. %%content_description%%
+    title: %%content_title%% | ShiftOrga
+    description: Engelsysteme vereint
 
 doctrine_cache:
     providers:
@@ -81,8 +81,8 @@ sonata_block:
 
 sonata_seo:
     page:
-        title: Welcome | Symfony2 CMF
+        title: Willkommen | ShiftOrga
         metas:
             name:
-                description: The Symfony2 Content Management Framework.
-                keywords: "CMF, Symfony2, PHPCR"
+                description: Engelsysteme vereint.
+                keywords: "Refugees, Engelsystem"
