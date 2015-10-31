@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/shiftorga/shiftor.ga-websitet.svg)](https://travis-ci.org/shiftorga/shiftor.ga-website)
+
 # Shiftorga Website
 
 ### You will need:
