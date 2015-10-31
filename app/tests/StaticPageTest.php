@@ -43,7 +43,7 @@ class StaticPageTest extends WebTestCase
         $client = $this->createClient();
         $crawler = $client->request('GET', '/get-involved');
         $this->assertTrue($client->getResponse()->isSuccessful());
-        $this->assertEquals(1, $crawler->filter('a:contains("Github Wiki")')->count());
+        $this->assertEquals(1, $crawler->filter('a:contains("Github")')->count());
     }
 
 

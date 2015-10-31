@@ -3,7 +3,7 @@ static:
         label: "Docs"
         uri: "https://github.com/shiftorga/shifts-docs"
     wiki:
-        label: "Wiki"
+        label: "Github Wiki"
         uri: "https://github.com/shiftorga/shifts-docs/wiki/Shiftorga"
     demo:
         label: "Demo"
