@@ -1,10 +1,10 @@
 static:
     docs:
         label: "Docs"
-        uri: "http://symfony.com/doc/master/cmf/index.html"
+        uri: "https://github.com/shiftorga/shifts-docs"
     wiki:
         label: "Wiki"
-        uri: "http://wiki.github.com/symfony-cmf/symfony-cmf"
+        uri: "https://github.com/shiftorga/shifts-docs/wiki/Shiftorga"
     demo:
         label: "Demo"
-        uri: "http://cmf.liip.ch/"
+        uri: ".tbd"
